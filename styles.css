@@ -1081,39 +1081,35 @@ body {
 
 /* Extra Small Devices (phones, <576px) */
 @media (max-width: 575px) {
-    /* General scaling for mobile */
+    /* General adjustments for mobile */
     body {
-        font-size: 12px; /* Further reduce base font size */
-        transform: scale(0.85);
-        transform-origin: top left;
-        width: 100%; /* Ensure full width without extra space */
-        overflow-x: hidden; /* Prevent horizontal scroll */
+        font-size: 14px; /* Slightly reduce base font size for readability */
     }
 
     /* Navbar */
     .navbar {
-        padding: 6px;
+        padding: 10px;
     }
 
     .navbar-inner {
         width: 100%;
-        padding: 6px;
+        padding: 10px;
         flex-direction: column;
         align-items: center;
-        gap: 6px;
+        gap: 10px;
     }
 
     .navbar-left {
-        margin-bottom: 6px;
+        margin-bottom: 10px;
     }
 
     .logo-text {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .navbar-links {
         flex-direction: column;
-        gap: 6px;
+        gap: 10px;
         width: 100%;
         text-align: center;
     }
@@ -1124,74 +1120,74 @@ body {
 
     .navbar-links a {
         display: block;
-        padding: 4px 0;
-        font-size: 11px;
+        padding: 8px 0;
+        font-size: 14px;
     }
 
     .btn-contact {
-        padding: 6px 10px;
-        font-size: 11px;
+        padding: 8px 12px;
+        font-size: 14px;
     }
 
     /* Hero */
     .hero-section {
-        height: 50vh;
+        height: 70vh;
     }
 
     .hero-card {
-        width: 95%;
-        left: 2.5%;
-        top: 10%;
-        padding: 12px;
+        width: 90%;
+        left: 5%;
+        top: 15%;
+        padding: 20px;
     }
 
     .hero-card h1 {
-        font-size: 18px;
+        font-size: 24px;
     }
 
     .hero-card h5 {
-        font-size: 10px;
+        font-size: 14px;
     }
 
     .hero-card p {
-        font-size: 9px;
+        font-size: 12px;
     }
 
     .hero-buttons {
         flex-direction: column;
-        gap: 6px;
+        gap: 10px;
     }
 
     .btn-primary,
     .btn-outline {
         width: 100%;
-        padding: 8px 12px;
-        font-size: 11px;
+        padding: 12px 16px;
+        font-size: 14px;
     }
 
     /* Stats */
     .stats-section {
-        padding: 20px 0;
+        padding: 30px 0;
     }
 
     .stats-section .col-md-3 {
-        margin-bottom: 12px;
+        margin-bottom: 20px;
         text-align: center;
     }
 
     .stats-section h3 {
-        font-size: 16px;
+        font-size: 20px;
     }
 
     /* SnapServe */
     .snapserve-section {
-        padding: 30px 0;
+        padding: 40px 0;
     }
 
     .snapserve-wrapper {
         grid-template-columns: 1fr;
-        gap: 20px;
-        padding: 0 12px;
+        gap: 30px;
+        padding: 0 20px;
     }
 
     .snapserve-left,
@@ -1200,52 +1196,53 @@ body {
     }
 
     .snapserve-img-small {
-        display: none;
+        display: block; /* Keep small image for detail */
+        height: 150px;
     }
 
     .snapserve-img-large {
-        height: 160px;
+        height: 200px;
     }
 
     .snapserve-title {
-        font-size: 16px;
+        font-size: 20px;
     }
 
     .snapserve-text {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .snapserve-btn {
-        padding: 6px 10px;
-        font-size: 10px;
+        padding: 10px 14px;
+        font-size: 12px;
     }
 
     /* About */
     .about-section {
-        padding: 30px 0;
+        padding: 40px 0;
     }
 
     .about-title {
-        font-size: 18px;
+        font-size: 22px;
     }
 
     .about-top {
         grid-template-columns: 1fr;
-        gap: 12px;
+        gap: 20px;
     }
 
     .about-bottom {
         grid-template-columns: 1fr;
-        gap: 12px;
-        margin: 20px 0;
+        gap: 20px;
+        margin: 30px 0;
     }
 
     .about-bottom h4 {
-        font-size: 12px;
+        font-size: 16px;
     }
 
     .about-bottom p {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     /* Team Carousel */
@@ -1262,15 +1259,15 @@ body {
 
     .team-card {
         flex-shrink: 0;
-        width: 150px;
+        width: 200px;
     }
 
     .team-card h5 {
-        font-size: 10px;
+        font-size: 14px;
     }
 
     .team-card span {
-        font-size: 8px;
+        font-size: 11px;
     }
 
     .carousel-btn {
@@ -1280,48 +1277,48 @@ body {
     /* Testimonials */
     .testimonials {
         grid-template-columns: 1fr;
-        gap: 20px;
-        padding: 0 12px;
+        gap: 30px;
+        padding: 0 20px;
     }
 
     .testimonial-card h4 {
-        font-size: 10px;
+        font-size: 14px;
     }
 
     .testimonial-card span {
-        font-size: 7px;
+        font-size: 10px;
     }
 
     .testimonial-card blockquote {
-        font-size: 8px;
+        font-size: 11px;
     }
 
     /* Contact */
     .contact-form {
-        padding: 0 12px;
+        padding: 0 20px;
     }
 
     .form-row {
         grid-template-columns: 1fr;
-        gap: 10px;
+        gap: 15px;
     }
 
     .contact-form input,
     .contact-form textarea {
-        font-size: 9px;
-        padding: 6px 3px;
+        font-size: 12px;
+        padding: 10px 6px;
     }
 
     .contact-form button {
-        padding: 6px 10px;
-        font-size: 8px;
+        padding: 10px 14px;
+        font-size: 12px;
     }
 
     /* Footer */
     .footer-container {
         flex-direction: column;
-        gap: 20px;
-        padding: 0 12px;
+        gap: 30px;
+        padding: 0 20px;
     }
 
     .footer-left,
@@ -1332,39 +1329,39 @@ body {
 
     .footer-links {
         flex-direction: column;
-        gap: 12px;
+        gap: 20px;
     }
 
     .footer-col {
-        margin-bottom: 10px;
+        margin-bottom: 15px;
     }
 
     .footer-brand {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .footer-col h5 {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .footer-col a {
-        font-size: 9px;
+        font-size: 11px;
     }
 
     .footer-subscribe {
         flex-direction: column;
-        gap: 6px;
+        gap: 10px;
     }
 
     .footer-subscribe input {
         width: 100%;
-        font-size: 9px;
-        padding: 6px 8px;
+        font-size: 12px;
+        padding: 10px 12px;
     }
 
     .footer-subscribe button {
-        padding: 6px 10px;
-        font-size: 9px;
+        padding: 10px 14px;
+        font-size: 12px;
     }
 }
 
