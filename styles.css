@@ -1086,7 +1086,8 @@ body {
         font-size: 12px; /* Further reduce base font size */
         transform: scale(0.85);
         transform-origin: top left;
-        width: 117.65%; /* Compensate for scale to prevent horizontal scroll */
+        width: 100%; /* Ensure full width without extra space */
+        overflow-x: hidden; /* Prevent horizontal scroll */
     }
 
     /* Navbar */
