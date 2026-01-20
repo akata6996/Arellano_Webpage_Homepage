@@ -1166,8 +1166,7 @@ body {
 
     /* Team Carousel */
     .team-carousel {
-        overflow-x: auto;
-        -webkit-overflow-scrolling: touch;
+        overflow: hidden;
     }
 
     .carousel-track {
